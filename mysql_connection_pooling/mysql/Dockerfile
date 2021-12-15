@@ -1,0 +1,8 @@
+FROM mysql:latest
+
+EXPOSE 3306
+
+ENV MYSQL_USER='test'
+ENV MYSQL_PASSWORD='password'
+ENV MYSQL_DATABASE='test'
+ENV MYSQL_ROOT_PASSWORD='password'
